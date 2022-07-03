@@ -1,0 +1,159 @@
+.minder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .operate {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100px;
+    background-color: var(--dark-whitesmoke, whitesmoke);
+    & > div {
+      padding: 0 5px;
+      border-right: 1px dotted var(--dark-darkgray, darkgray);
+    }
+    .do {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .ports {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .nodes {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .move {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .edit {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+    }
+    .multi {
+      .media {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .remove {
+        text-align: center;
+        border: 1px dashed dodgerblue;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .priorities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      flex-shrink: 0;
+      .priority {
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        text-indent: -50px;
+        background-image: url("./images/priority.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+    .progresses {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      flex-shrink: 0;
+      .progress {
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        text-indent: -50px;
+        background-image: url("./images/progress.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+    .colors {
+      display: flex;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      .color {
+        width: 15px;
+        height: 15px;
+        border-bottom: 1px solid dodgerblue;
+      }
+    }
+  }
+
+  #minder {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    background-color: var(--dark-darkgray, darkgray);
+    .closeIcon {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .scrollarea {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 190px);
+      overflow: auto;
+      .textarea-hint {
+        position: sticky;
+        bottom: 0;
+      }
+    }
+    .previewNote {
+      position: absolute;
+      max-width: 25vw;
+      max-height: 25vh;
+      padding: 3px 9px;
+      overflow: auto;
+      background-color: #ffd;
+      border-radius: 5px;
+      box-shadow: 3px 0 3px #858573, 0 3px 3px #858573, -3px 0 3px #858573,
+        0 -3px 3px #858573;
+    }
+  }
+}

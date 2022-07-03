@@ -1,0 +1,45 @@
+#mindeditor-template {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--dark-whitesmoke, whitesmoke);
+  &:hover {
+    background-color: var(--dark-lightgray, lightgray);
+  }
+}
+#mindeditor-theme {
+  width: 80px;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--dark-whitesmoke, whitesmoke);
+  &:hover {
+    background-color: var(--dark-lightgray, lightgray);
+  }
+}
+#mindeditor-keyboard {
+  margin-bottom: 3px;
+}
+.statusbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  height: 24px;
+  background-color: var(--dark-whitesmoke, whitesmoke);
+  border-top: 1px solid var(--dark-lightgray, lightgray);
+  .selection {
+    min-width: 150px;
+    max-width: 300px;
+    overflow: hidden;
+    color: dodgerblue;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .fullscreen {
+    display: flex;
+  }
+}

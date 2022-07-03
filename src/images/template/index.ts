@@ -1,0 +1,6 @@
+export { default as defa } from './default.png'
+export { default as file } from './filetree.png'
+export { default as fish } from './fish-bone.png'
+export { default as righ } from './right.png'
+export { default as stru } from './structure.png'
+export { default as tian } from './tianpan.png'

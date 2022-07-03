@@ -1,0 +1,30 @@
+.scroll2list {
+  width: 100%;
+  height: calc(100vh - 190px);
+  overflow: auto;
+  .node {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed var(--dark-darkgray, darkgray);
+  }
+  .resource {
+    margin-bottom: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    .operation {
+      display: none;
+      width: 50px;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    &:hover {
+      background-color: var(--dark-lightgray, lightgray);
+      .operation {
+        display: flex;
+      }
+    }
+  }
+}

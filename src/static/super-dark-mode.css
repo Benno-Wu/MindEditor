@@ -1,0 +1,13 @@
+span {
+  background: linear-gradient(
+    135deg,
+    linen,
+    lightpink,
+    orchid,
+    /* todo a little deep, maybe lighter */ steelblue,
+    seashell
+  ) !important;
+  -webkit-background-clip: text !important;
+  /* bug input & mark */
+  -webkit-text-fill-color: transparent !important;
+}
