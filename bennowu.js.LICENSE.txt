@@ -1,0 +1,40 @@
+/*!
+  **  Thenable -- Embeddable Minimum Strictly-Compliant Promises/A+ 1.1.1 Thenable
+  **  Copyright (c) 2013-2014 Ralf S. Engelschall <http://engelschall.com>
+  **  Licensed under The MIT License <http://opensource.org/licenses/MIT>
+  **  Source-Code distributed on <http://github.com/rse/thenable>
+  */
+
+/*!
+ * ====================================================
+ * @bennowu/hotbox - v1.1.15 - 2022-06-04
+ * GitHub: https://github.com/Benno-Wu/hotbox.git 
+ * Copyright (c) 2022 BennoWu; Licensed MIT
+ * ====================================================
+ */
+
+/*!
+ * ====================================================
+ * @bennowu/kityminder-core - v2.0.0 - 2022-06-05
+ * GitHub: git+https://github.com/Benno-Wu/kityminder-core.git 
+ * Copyright (c) 2022 BennoWu; Licensed MIT
+ * ====================================================
+ */
+
+/*!
+ * ====================================================
+ * Hot Box UI - v1.0.15 - 2017-05-05
+ * https://github.com/fex-team/hotbox
+ * GitHub: https://github.com/fex-team/hotbox.git 
+ * Copyright (c) 2017 Baidu FEX; Licensed BSD
+ * ====================================================
+ */
+
+/*!
+ * ====================================================
+ * Kity Minder Core - v1.4.50 - 2018-09-17
+ * https://github.com/fex-team/kityminder-core
+ * GitHub: https://github.com/fex-team/kityminder-core.git 
+ * Copyright (c) 2018 Baidu FEX; Licensed BSD-3-Clause
+ * ====================================================
+ */
